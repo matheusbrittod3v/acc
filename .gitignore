@@ -7,3 +7,10 @@ Thumbs.db
 .DS_Store
 .idea/
 /store
+
+# Local credentials and generated dependencies
+.env.*
+!.env.example
+node_modules/
+vendor/
+*.log
